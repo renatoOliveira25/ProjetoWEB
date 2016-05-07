@@ -1,0 +1,10 @@
+Autenticação Username&Password Hibernate
+
+{JAVA}
+DetachedCriteria criterio = DetachedCriteria.forClass(Funcionario.class, "func");
+criterio.add(Restrictions.eq("func.nome", login));
+criterio.add(Restrictions.eq("func.senha", senha));
+criterio.getExecutableCriteria(HibernateUtil.getSessionFactory().openSession()).list();
+{/JAVA}
+
+fonte: https://groups.google.com/forum/#!topic/hibernate-brasil/X0shqxHHgkk

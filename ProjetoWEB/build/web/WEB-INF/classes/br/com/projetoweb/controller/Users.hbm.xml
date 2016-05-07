@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 05/05/2016 22:20:41 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="projetoweb" name="br.com.projetoweb.model.Usuario" optimistic-lock="version" table="users">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="firstName" type="string">
+      <column length="45" name="firstName" not-null="true"/>
+    </property>
+    <property name="lastName" type="string">
+      <column length="45" name="lastName" not-null="true"/>
+    </property>
+    <property name="login" type="string">
+      <column length="45" name="login" not-null="true"/>
+    </property>
+    <property name="pass" type="string">
+      <column length="45" name="pass" not-null="true"/>
+    </property>
+    <property name="tipoUser" type="int">
+      <column name="tipoUser" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

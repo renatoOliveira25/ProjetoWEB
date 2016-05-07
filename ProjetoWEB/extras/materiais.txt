@@ -1,0 +1,25 @@
+CRUD com JSP e Servlet + MySQL + NetBeans – Parte I
+http://naredesocial.blogspot.com.br/2014/06/crud-com-jsp-e-servlet-mysql-netbeans.html
+
+Construindo uma aplicaзгo Desktop em MVC em Java
+https://www.youtube.com/watch?v=DxFU0eC5tms
+https://www.youtube.com/watch?v=58liv_I62JM
+
+Hibernate 4: Aprenda a persistir os dados de sua aplicaзгo
+http://www.devmedia.com.br/hibernate-4-aprenda-a-persistir-os-dados-de-sua-aplicacao/32341
+
+JAVA e Hibernate Ц Aula de Criar Aplicaзгo no Netbeans
+http://partilho.com.br/java-netbeans/java-e-hibernate-netbeans/
+
+Introdução ao Java Server Pages - JSP
+http://www.devmedia.com.br/introducao-ao-java-server-pages-jsp/25602
+
+JSP e Servlet - Enviando requisições GET e POST
+http://www.devmedia.com.br/jsp-e-servlet-enviando-requisicoes-get-e-post/25463
+
+Validando usuário e senha pelo Hibernate
+http://respostas.guj.com.br/25858-metodo-de-validacao-de-usuario-usando-hibernate
+http://www.guj.com.br/t/login-usando-hibernate-resolvido/291490/4
+
+CRUD JSF 2.0 + Hibernate – Exemplo Gerenciando Livros
+http://jamacedo.com/2010/06/crud-jsf-2-0-hibernate-exemplo-gerenciando-livros-2/

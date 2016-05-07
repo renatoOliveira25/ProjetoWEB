@@ -1,0 +1,44 @@
+import java.util.List;  
+import net.sf.hibernate.*;  
+import net.sf.hibernate.cfg.Configuration;  
+  
+public class AmigoDAO{  
+  
+   private SessionFactory factory;  
+  
+   public AmigoDAO() throws Exception{  
+       factory = new Configuration().addClass(Amigo.class).buildSessionFactory();  
+   }       
+  
+   public void insert(Amigo amigo) throws Exception{  
+      Session session = factory.openSession();  
+      session.save(amigo);  
+      session.flush();  
+      session.close();  
+   }  
+      
+   public java.util.List getList(String condicao) throws Exception{  
+      Session session = factory.openSession();  
+      List amigos = session.find(condicao);  
+      session.flush();  
+      session.close();  
+      return amigos;  
+   }  
+      
+   public Amigo retrieve(String pk) throws Exception{  
+      Session session = factory.openSession();  
+      Amigo amigo = (Amigo)session.load(Amigo.class, pk);  
+      session.flush();  
+      session.close();  
+      return amigo;  
+   }  
+      
+   public void delete(Amigo amigo) throws Exception{  
+      Session session = factory.openSession();  
+      session.delete(amigo);  
+      session.flush();  
+      session.close();  
+   }  
+}
+
+http://javafree.uol.com.br/artigo/3721/Pequeno-Tutorial-sobre-Hibernate.html

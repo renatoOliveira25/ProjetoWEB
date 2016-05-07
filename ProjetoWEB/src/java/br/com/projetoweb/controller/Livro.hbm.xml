@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 05/05/2016 22:20:41 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="projetoweb" name="br.com.projetoweb.model.Livro" optimistic-lock="version" table="livro">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="titulo" type="string">
+      <column length="45" name="titulo"/>
+    </property>
+    <property name="numPaginas" type="java.lang.Integer">
+      <column name="numPaginas"/>
+    </property>
+    <property name="autor" type="string">
+      <column length="45" name="autor"/>
+    </property>
+    <property name="editora" type="string">
+      <column length="45" name="editora"/>
+    </property>
+  </class>
+</hibernate-mapping>
